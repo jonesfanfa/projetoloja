@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOJA FANFA - Produtos</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="/css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <h1>LOJA FANFA</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">INÍCIO</a></li>
+                <li><a href="index.html">PRODUTOS</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="contatos.html">CONTATOS</a></li>
+                <li><a href="carrinho.html">CARRINHO DE COMPRAS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-3 card text-center">
+                    <img class="card-img-top" src="/img/headset.jpg" alt="imagem do headset Hyperx Cloud Stinger 2">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Headset Gamer Hyperx Cloud Stinger 2 Core</h5>
+                        <h6 class="card-subtitle mb-2 font-weight-bold">Descrição do Produto</h6>
+                        <p class="card-text">O Headset Gamer HyperX Cloud Stinger 2 oferece drivers de 50mm para uma
+                            ampla resposta de frequência, garantindo que você não perca detalhes sonoros importantes
+                            durante o jogo. Conforto excepcional com espuma de memória macia e
+                            couro sintético premium.</p>
+                        <p class="preco">R$ 199,99</p>
+                        <button class="btn btn-success" onclick="adicionarAoCarrinho('Produto 1')">Adicionar ao
+                            Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 card text-center">
+                    <img class="card-img-top" src="/img/mouseCobra.jpg" alt="imagem do mouse redragon cobra">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Mouse Gamer Redragon Cobra, Preto, Chroma RGB</h5>
+                        <h6 class="card-subtitle mb-2 font-weight-bold">Descrição do Produto</h6>
+                        <p class="card-text">O mouse mais vendido da Redragon alia uma pegada universalmente amada por
+                            jogadores e uma precisão ímpar e com a iluminação Chroma MK I da Redragon.</p>
+                        <p class="preco">R$ 109,99</p>
+
+                        <button class="btn btn-success" onclick="adicionarAoCarrinho('Produto 2')">Adicionar ao
+                            Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 card text-center">
+                    <img class="card-img-top img-iphone" src="/img/Iphone 12 Pro.jpg" alt="imagem do Iphone 12 Pro">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Iphone 12 Pro 128GB Azul</h5>
+                        <h6 class="card-subtitle mb-2 font-weight-bold">Descrição do Produto</h6>
+                        <p class="card-text">O Iphone 12 Pro apresenta uma tela Super Retina XDR de 6,1 polegadas, de
+                            alta qualidade. Muito resistente a quedas.
+                            Oferece fotos excepcionais em ambientes com pouca luz através do sistema de câmera, com
+                            zoom óptico de 4x.</p>
+                        <p class="preco">R$ 2.795,65</p>
+                        <button class="btn btn-success" onclick="adicionarAoCarrinho('Produto 3')">Adicionar ao
+                            Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 card text-center">
+                    <img class="card-img-top" src="/img/Iphone 14 Pro.jpg" alt="imagem do Iphone 14 Pro">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Apple iPhone 14 Pro Max (1 TB) - Dourado</h5>
+                        <h6 class="card-subtitle mb-2 font-weight-bold">Descrição do Produto</h6>
+                        <p class="card-text">O Apple iPhone 14 Pro Max apresenta uma grande tela touchscreen de 6.7
+                            polegadas com resolução de 2796x1290 pixels. Equipado com 5G para transferência de dados
+                            rápida e navegação na
+                            internet.</p>
+                        <p class="preco">R$ 10.799,00</p>
+                        <button class="btn btn-success" onclick="adicionarAoCarrinho('Produto 4')">Adicionar ao
+                            Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 card text-center">
+                    <img class="card-img-top" src="/img/Apple Watch Series 6.jpg" alt="imagem do Apple Watch Series 6">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Apple Watch Series 6 Nike 44mm GPS</h5>
+                        <h6 class="card-subtitle mb-2 font-weight-bold">Descrição do Produto</h6>
+                        <p class="card-text">O Apple Watch oferece sofisticação e alta tecnologia, combinando um design
+                            excepcional com recursos que simplificam a vida diária. Com ele, você pode monitorar sua
+                            saúde, se manter conectado e registrar seus exercícios.</p>
+                        <p class="preco">R$ 3.999,90</p>
+                        <button class="btn btn-success" onclick="adicionarAoCarrinho('Produto 1')">Adicionar ao
+                            Carrinho</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2024. Loja Jones - Todos os direitos reservados.</p>
+    </footer>
+    <script src="/js/script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
